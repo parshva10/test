@@ -10,3 +10,6 @@ def index(request):
 
 def trial(request):
     return HttpResponse("Changes from Dishan")
+
+def sum(request):
+    return HttpResponse("SUM")
