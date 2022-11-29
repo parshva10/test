@@ -7,3 +7,6 @@ def hello(request):
 
 def index(request):
     return HttpResponse("Hello World!!")
+
+def trial(request):
+    return HttpResponse("Hello Parshva!")
